@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css" integrity="sha512-4wFGk961cJS2gpSfzy1vU+R8Q93foZOoGgfEDetiClOqNvggdtnRpdCsAgfm8VU9mKkv2unla8RBYwA6hoFwqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="root">
+        <header>
+            <h1>devfinder</h1>
+            <button class="mode">light <i class="fas fa-sun"></i></button>
+        </header>
+        <div class="input-field">
+            <i class="fas fa-search"></i>        
+            <input type="text" name="" id="username" placeholder="Search Github username...">
+            <button class="btn">Search</button>
+        </div>
+        <div class="body-container">
+            <div class="body-header">
+                <img id="profile-pic" src="img/70019018.png" alt="profile-pic">
+                <div class="header-content">
+                    <h2 id="fullName">Karan Pandit</h2>
+                    <a id="userName">@babayaga110</a>
+                    <p id="joinDate">25 Jan 2021</p>
+                </div>
+            </div>
+            <p id="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus, pariatur maiores incidunt.</p>
+            <div class="count">
+                <p class="count-name">
+                    Repos
+                    <span id="reposCount">8</span>
+                </p>
+                <p class="count-name">
+                    Followers
+                    <span id="followersCount">3938</span>
+                </p>
+                <p class="count-name">
+                    Following
+                    <span id="followingCount">9</span>
+                </p>
+            </div>
+            <div class="soical-link">
+                <a href="" class="link" id="location"><i class="fas fa-map-marker-alt"></i> San Francisco</a>
+                <a href="" class="link" id="twitter"><i class="fab fa-twitter"></i> Not Available</a>
+                <a href="" class="link" id="gitBlog"><i class="fas fa-link"></i> https://github.blog</a>
+                <a href="" class="link" id="github"><i class="fas fa-city"></i> @github</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
